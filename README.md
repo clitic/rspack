@@ -1,22 +1,14 @@
 # RSPack
 
 <p align="center">
-  <a href="https://pypi.org/project/rspack/"><img src="https://pepy.tech/badge/rspack" alt="Total Downloads"></a>
   <a href="https://www.python.org/downloads/" title="Python Version"><img src="https://img.shields.io/badge/python-%3E=_3.6-green.svg"></a>
   <a href="LICENSE" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
-  <a href="https://pypi.org/project/rspack/"><img src="https://badge.fury.io/py/rspack.svg" alt="PyPi Package Version"></a>
   <a href="https://github.com/360modder/rspack"><img src="https://img.shields.io/github/repo-size/360modder/rspack.svg" alt="Repository Size"></a>
 </p>
 
 pack resource files to a python script
 
 ## Installations
-
-```bash
-pip install rspack
-```
-
-Or install from github repository.
 
 ```bash
 pip install https://github.com/360modder/rspack/archive/master.zip
@@ -71,17 +63,8 @@ for packed_file in packed_resources.values():
     packed_file.delete()
 ```
 
-## Some Important Points
+## Quick Links
 
-1. Never use rspack unless program is distributed.
-
-2. It would be highly memory intensive if you pack more high sizes files.
-
-3. If you pack resources with rspack then it would work with pyinstaller without using *--add-data* flag.
-
-## Links
-
-- [pypi/rspack](https://pypi.org/project/rspack/)
 - [CHANGELOG.md](CHANGELOG.md)
 
 ## License
