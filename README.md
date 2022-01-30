@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://www.python.org/downloads/" title="Python Version"><img src="https://img.shields.io/badge/python-%3E=_3.6-green.svg"></a>
   <a href="LICENSE" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
-  <a href="https://github.com/360modder/rspack"><img src="https://img.shields.io/github/repo-size/360modder/rspack.svg" alt="Repository Size"></a>
+  <a href="https://github.com/clitic/rspack"><img src="https://img.shields.io/github/repo-size/clitic/rspack.svg" alt="Repository Size"></a>
 </p>
 
 pack resource files to a python script
@@ -11,7 +11,7 @@ pack resource files to a python script
 ## Installations
 
 ```bash
-pip install https://github.com/360modder/rspack/archive/master.zip
+pip install https://github.com/clitic/rspack/archive/master.zip
 ```
 
 ## Usage
@@ -69,6 +69,6 @@ for packed_file in packed_resources.values():
 
 ## License
 
-© 2021 360modder
+© 2021 clitic
 
 This repository is licensed under the MIT license. See LICENSE for details.

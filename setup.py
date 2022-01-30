@@ -13,9 +13,9 @@ setup(
     long_description=README,
     long_description_content_type="text/markdown",
     keywords=[],
-    url="https://github.com/360modder/rspack",
-    author="360modder",
-    author_email="apoorv9450@gmail.com",
+    url="https://github.com/clitic/rspack",
+    author="clitic",
+    author_email="clitic21@gmail.com",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
